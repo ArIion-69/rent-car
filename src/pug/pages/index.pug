@@ -1,0 +1,152 @@
+extends ../layout/main.pug
+block title
+    | Docment
+block content
+    include ../blocks/header.pug
+    
+    .hero
+        .hero-wrapper.container--second
+            .hero-content 
+                h1.hero-content-title Lease a car
+                .hero-content-wrapper 
+                    img(src="static/img/icon/zero-ico.svg", alt="alt")
+                    .hero-content-wrapper__text
+                        p.hero-content-wrapper__text-title Down lease on all makes & models!
+                        p.hero-content-wrapper__text-title Excludes: first month,  acquisition fee, new / transfer and more... 
+                ul
+                    li 
+                        span Exclusive access to marked down leasing inventory
+                    li 
+                        span Limited Discounts that are not available to general    public
+                    li 
+                        span We Buy All Trades
+                    li 
+                        span Price Match Guarantee
+                    li 
+                        span FREE Delivery To Home/Office
+                img(src="static/img/hero-company.png", width='560' height='72'  alt="alt")
+            .hero-form
+                h3.hero-form__title Instant Lease Quote
+                span.hero-form__subtitle Bad credit? Not a problem.Contact Us!
+                form
+                    <input placeholder="Full name" type="text" id="name" name="name" required>
+                    <input placeholder="Email" type="email" id="email" name="email" required>
+                    <input placeholder="Phone" type="tel" id="phone" name="phone" required>
+                    <input placeholder="Car model" type="text" id="car_model" name="car_model" required>
+                    button.form-btn(type='Send message') Send message
+                p.hero-form__note * Absolutely the best lease deals in Tri-State. Note: Our monthly specials & deals are not published.
+    .hero-compony
+        .container--second
+            img(src="static/img/company-all.png", alt="alt")
+            
+    main
+        //rank start
+        .rank
+            h2.rank__title Best rated car leasing company 
+            p.rank__subtitle Down lease on all makes & models!
+            .rank-wrap
+                .container.rank-wrapper
+                        .rank-content
+                            h2.rank-content-title Best rated & most trusted by CARS.COM
+                            p.rank-content-subtitle Dealer of the year by DEALERRATER.COM
+                        img(src="static/img/company-reted-all.png", width='980' height='121'        alt="alt")
+        //rank end
+        
+        //about start
+        .about.container 
+                h1.about__title Why Choose Us?
+                .about-wrapper 
+                    .about-item
+                        img(src="static/img/icon/about-icon/cash-ico.svg", width='40' height='40' alt="alt")
+                        p.about-item-title We pay cash for all makes/models
+                    .about-item
+                        img(src="static/img/icon/about-icon/inventory-ico.svg", width='40' height='40' alt="alt")
+                        p.about-item-title We pay cash for all makes/models
+                    .about-item
+                        img(src="static/img/icon/about-icon/discounts-ico.svg", width='40' height='40' alt="alt")
+                        p.about-item-title We pay cash for all makes/models
+                    .about-item
+                        img(src="static/img/icon/about-icon/location-ico.svg", width='40' height='40' alt="alt")
+                        p.about-item-title We pay cash for all makes/models
+        //about end
+        
+        //card start
+        .card.container--second
+            
+            .card-item
+                .card-item__line
+                img(src="static/img/icon/card-icon/message-ico.svg", width='40' height='40' alt="alt")
+                .card-item-content 
+                    span.card-item-content__title 3000+
+                    p.card-item-content__subtitle 5.0 Star Trusted Reviews
+                .card-item__line
+            .card-item
+                img(src="static/img/icon/card-icon/message-ico.svg", width='40' height='40' alt="alt")
+                .card-item-content 
+                    span.card-item-content__title 3000+
+                    p.card-item-content__subtitle 5.0 Star Trusted Reviews
+                .card-item__line
+            .card-item
+                img(src="static/img/icon/card-icon/message-ico.svg", width='40' height='40' alt="alt")
+                .card-item-content 
+                    span.card-item-content__title 3000+
+                    p.card-item-content__subtitle 5.0 Star Trusted Reviews
+                .card-item__line                
+            .card-item
+                img(src="static/img/icon/card-icon/message-ico.svg", width='40' height='40' alt="alt")
+                .card-item-content 
+                    span.card-item-content__title 3000+
+                    p.card-item-content__subtitle 5.0 Star Trusted Reviews
+                .card-item__line                    
+        //card end
+        
+        //banner
+        .banner
+            .container--another 
+                h2.banner-title Subscribe for the best car lease deals & promotions
+                p.banner-suptitle Most attractive business lease offers
+                form
+                    <input placeholder="Enter your email" type="text" required>
+                    button.banner-btn Subscribe
+        //banner
+        
+        // contact-info
+        .contact-info 
+            .container--another
+                h2.contact-info-title Support
+                p.contact-info-suptitle Call us to uncover hidden monthly deals
+                .contact-info-wrapper 
+                    .contact-info-wrapper__item 
+                        img(src="static/img/icon/support.svg", width='60' height='60' alt="alt")
+                        .contact-info-wrapper__item-content 
+                            h3.contact-info-wrapper__item-content-title Online chat now
+                            a.contact-info-wrapper__item-content-suptitle(href="#") Text us
+                    .contact-info-wrapper__item 
+                        img(src="static/img/icon/support.svg", width='60' height='60' alt="alt")
+                        .contact-info-wrapper__item-content 
+                            h3.contact-info-wrapper__item-content-title 646-506-9340
+                            a.contact-info-wrapper__item-content-suptitle(href="#") Call us
+                    .contact-info-wrapper__item 
+                        img(src="static/img/icon/support.svg", width='60' height='60' alt="alt")
+                        .contact-info-wrapper__item-content 
+                            h3.contact-info-wrapper__item-content-title example@gmail.com
+                            a.contact-info-wrapper__item-content-suptitle(href="#") Email us
+        // contact-info  
+        
+        
+
+
+    include ../blocks/footer.pug
+
+
+
+
+
+
+
+
+
+
+
+
+
