@@ -70,6 +70,103 @@ block content
                         p.about-item-title We pay cash for all makes/models
         //about end
         
+        //quote
+        
+        .quote
+            .quote-form
+                h2.quote-form__title Get Your Instant Car Lease Quote
+                p.quote-form__suptitle Contact us today!
+                form
+                    <input placeholder="Full name" type="text" id="name" name="name" required>
+                    <input placeholder="Email" type="email" id="email" name="email" required>
+                    <input placeholder="Phone" type="tel" id="phone" name="phone" required>
+                    button.form-btn(type='Send message') Send message
+            .quote-image 
+                img(src="static/img/bg-car.png", alt="alt")
+        
+        //quote
+        
+        //comparison
+        
+        .comparison.container--second
+            h2.comparison-title Same Car. Better Price
+            p.comparison-suptitle Licensed, insured and bonded
+            ul 
+                li
+                    a(href="#") 01. Choose your car
+                li
+                    a(href="#") 02. Get your quote
+                li
+                    a(href="#") 03. Confirm quote
+                li
+                    a(href="#") 04. Locate your car
+                li
+                    a(href="#") 05. Free delivery
+            .comparison-content
+                .comparison-content__item
+                    h2.comparison-content__item-title ecar 
+                        span lease
+                    ul 
+                        li
+                            span Vehicle MSRP
+                            span Same
+                        li
+                            span Vehicle Delivery
+                            span $0
+                        li
+                            span Broker Fee
+                            span $0
+                        li
+                            span Other Expenses
+                            span $0
+                        li
+                            span Hidden Fees
+                            span $0
+                .comparison-content__center-item 
+                    span.comparison-content__center-item_title VS
+                    span.comparison-content__center-item_suptitle the difference
+                    ul 
+                        li $0
+                        li +$249
+                        li +$399        
+                        li +$499
+                        li +$449
+                .comparison-content__item
+                    h2.comparison-content__item-title Dealership/Leasing Co.
+                    ul 
+                        li
+                            span Vehicle MSRP
+                            span Same
+                        li
+                            span Vehicle Delivery
+                            span $249+
+                        li
+                            span Broker Fee
+                            span $399+
+                        li
+                            span Other Expenses
+                            span $499+  
+                        li
+                            span Hidden Fees
+                            span $499+
+            .comparison-content-bottom 
+                p *Beside you're savings, eAutoLease is always here to help with any of your automotive needs. All values are approximated and/or average.
+                ul      
+                    li
+                        span Price Difference With
+                        span $1,596
+        //comparison
+        
+        //promo 
+        
+        .promo 
+            .container--second
+                h2.promo-title Did we mention No Money (Zero) Down on all Makes & Models!
+                p.promo-sun-title No hidden fees, or unexpected surprises
+                button.promo-btn SLease Prices on all Makes & Models 
+        
+        //promo 
+        
         //card start
         .card.container--second
             
@@ -99,6 +196,28 @@ block content
                     p.card-item-content__subtitle 5.0 Star Trusted Reviews
                 .card-item__line                    
         //card end
+        
+        //slider
+        
+        .reviews 
+            h2.reviews-title What Our Customers Have To Say!
+            p.reviews-suptitle Thousands of satisfied customers
+            .reviews-slider.swiper 
+                .reviews-slider-wrapper.swiper-wrapper.swiper-slide
+                    .reviews-slider-item 
+                        p Alex R. was a pleasure to work with. Not only did he answer every question I had, he was patient and looked out for my best interest. He had better prices than every dealer i went to. We had trouble getting approved but he pulled strings and made it happen. He had hookups with insurance and he handled everything from start to finish.
+                        span Gecko Buildsa (Google User)
+                        .reviews-slider-item-pagination 
+                            ul 
+                                li.active
+                                li
+                                li
+                                li
+                                li
+                                li
+                        
+        
+        //slider
         
         //banner
         .banner
