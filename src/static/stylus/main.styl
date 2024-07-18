@@ -33,6 +33,14 @@ a
         display: flex
         justify-content: space-between
         align-items: center
+        .logo
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: 0.05em;
+            color: #fff;
+            font-family: "Orbitron", sans-serif !important;
+            span
+                color: #d93f21;
         .header-contact
             position relative
             display: flex
@@ -83,7 +91,7 @@ a
             display: inline-block
             &-title
                 font-weight: 600;
-                font-size: 100px;
+                font-size: 84px;
                 text-transform: uppercase;
                 color: $white;
                 margin-bottom: 10px
@@ -392,6 +400,15 @@ main
                 margin-bottom: 24px
                 span
                     color: #d93f21;
+            &-title2
+                font-weight: 500;
+                font-size: 20px;
+                letter-spacing: 0.05em;
+                text-align: center;
+                color: #121212;
+                border-bottom: 1px solid #b3b3b3;
+                padding: 0px 0px 16px 0px;
+                margin-bottom: 24px
             ul
                 display: flex
                 flex-direction: column;
@@ -505,18 +522,33 @@ main
         margin-bottom: 100px
         align-items: center
         display: flex
+        justify-content: space-between
         &-item
             display flex
             align-items: center 
-            max-width: 409px;
+            max-width: 277px;
             width 100%
-            justify-content: space-around
+            position relative
+            &:after
+                content: ''
+                position: absolute
+                left: -100px
+                width 75px
+                height 0
+                border: 1px solid #cacaca;
+                transform: rotate(-90deg);
+            &:before
+                content: ''
+                position: absolute
+                right: -82px
+                width 75px
+                height 0
+                border: 1px solid #cacaca;
+                transform: rotate(-90deg);
             img
                 margin-bottom: 31px;
             &-content
                 margin-left: 25.72px
-                margin-right: 41.25px;
-
                 &__title
                     font-weight: 400;
                     font-size: 32px;
